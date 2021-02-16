@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 08, 2021 at 03:11 AM
+-- Generation Time: Feb 16, 2021 at 03:41 AM
 -- Server version: 10.1.39-MariaDB
 -- PHP Version: 7.3.5
 
@@ -215,8 +215,7 @@ CREATE TABLE `surat_keterangan_nikah` (
 
 INSERT INTO `surat_keterangan_nikah` (`id`, `nomor`, `tanggal`, `nama_suami`, `nama_istri`, `tempat_lahir_suami`, `tanggal_lahir_suami`, `suku_suami`, `pekerjaan_suami`, `nama_ortu_suami`, `alamat_suami`, `tempat_lahir_istri`, `tanggal_lahir_istri`, `suku_istri`, `pekerjaan_istri`, `nama_ortu_istri`, `alamat_istri`, `file`) VALUES
 (3, '02/NA/MK-2021', '2021-01-05', 'Ego Saputra', 'Rahma Agatha Fatriza', 'Lariang', '1993-01-11', 'Caniago', 'Pedagang', 'Darlis, Mariana', 'Palupuh', 'Padang', '1996-08-08', 'Melayu', 'Pedagang', '... (alm), Fatmawati', 'Badinah Murni', 'surat_keterangan_nikah_03-02-2021_09-53-16.pdf'),
-(4, '03/NA/MK-2021', '2021-01-21', 'Firma Grata Yuda', 'Suci Rahmadani', 'Minangkabau', '1995-04-02', 'Melayu', 'Wiraswasta', 'Rusli, Asmawati', 'Minang Jaya', 'Medan', '1998-01-03', 'Koto', 'Wiraswasta', 'Syafrialdi, Syamsiar', 'Medan', 'surat_keterangan_nikah_03-02-2021_10-24-52.pdf'),
-(5, '01/NA/MK-2021', '2021-01-04', 'HENDRA', 'SSS', 'BBB', '2018-09-11', 'AAAA', 'AAAA', 'AAAA', 'AAAAAA', 'AAAA', '2021-02-10', 'Koto', 'SSSSSSSS', 'Syafriadi, Syamsiar', 'Medan', 'surat_keterangan_nikah_05-02-2021_11-04-55.pdf');
+(4, '03/NA/MK-2021', '2021-01-21', 'Firma Grata Yuda', 'Suci Rahmadani', 'Minangkabau', '1995-04-02', 'Melayu', 'Wiraswasta', 'Rusli, Asmawati', 'Minang Jaya', 'Medan', '1998-01-03', 'Koto', 'Wiraswasta', 'Syafrialdi, Syamsiar', 'Medan', 'surat_keterangan_nikah_03-02-2021_10-24-52.pdf');
 
 -- --------------------------------------------------------
 
@@ -320,7 +319,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `username`, `nama`, `password`, `level`, `file_gambar`) VALUES
 (1, 'admin', 'Rizky Winanda', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'file_1612530901.jpeg'),
-(2, 'operator', 'Operator', '4b583376b2767b923c3e1da60d10de59', 'operator', 'operator.png');
+(2, 'operator1', 'Operator1', 'b93939873fd4923043b9dec975811f66', 'operator', 'operator.png');
 
 --
 -- Indexes for dumped tables
@@ -436,7 +435,7 @@ ALTER TABLE `surat_keterangan_lainnya`
 -- AUTO_INCREMENT for table `surat_keterangan_nikah`
 --
 ALTER TABLE `surat_keterangan_nikah`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `surat_keterangan_tidak_mampu`
