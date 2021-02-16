@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 16, 2021 at 03:41 AM
+-- Generation Time: Feb 16, 2021 at 03:49 AM
 -- Server version: 10.1.39-MariaDB
 -- PHP Version: 7.3.5
 
@@ -318,8 +318,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `nama`, `password`, `level`, `file_gambar`) VALUES
-(1, 'admin', 'Rizky Winanda', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'file_1612530901.jpeg'),
-(2, 'operator1', 'Operator1', 'b93939873fd4923043b9dec975811f66', 'operator', 'operator.png');
+(1, 'admin', 'Rizky Winanda', '21232f297a57a5a743894a0e4a801fc3', 'admin', 'admin.png'),
+(2, 'operator', 'Operator', '4b583376b2767b923c3e1da60d10de59', 'operator', 'operator.png');
 
 --
 -- Indexes for dumped tables
